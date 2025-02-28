@@ -16,10 +16,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - kibana.itprofessionals.ca
+    - kibana.domain.com
     secretName: kibana-ingress-secret
   rules:
-  - host: kibana.itprofessionals.ca
+  - host: kibana.domain.com
     http:
       paths:
       - path: /
